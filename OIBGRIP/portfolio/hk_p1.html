@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hk_p1</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet" />
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .index {
+        border-left: 0px;
+    background-color: #e9ecef;
+    color: #484e54;
+    text-align: center;
+    text-shadow: 1px 2px 3px #5c5959;
+    letter-spacing: 4px;
+    width: 16vw;
+    font-size: 2.5rem;
+    border-radius: 0px 24px 25px 0px;
+    height: 8vh;
+    }
+    .flex {
+        display: flex;
+    }
+    .center {
+        justify-content: center;
+        align-items: center;
+    }
+    .main {
+        background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.1)), url('./blur.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 40px auto;
+        flex-direction: column;
+        border: 20px groove #e9ecef;
+        width: 80vw;
+        font-family: "Balsamiq Sans", cursive;
+        gap: 15px;
+    }
+
+    /* header part */
+    .header {
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 0px;
+    }
+    .black {
+        justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to left, #ad0700 , #F4B400);
+    border-radius: 65px 0px 0px 65px;
+    border-right: 0px;
+    height: 19vh;
+    box-shadow: 0px 0px 5px 1px black;
+    width: 70vw;
+    margin: 30px 0px;
+    }
+    .black img {
+        box-shadow: 0px 0px 3px black;
+        width: 90px;
+    }
+    .black h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        left: 65px;
+        text-shadow: 1px 2px 3px black;
+        color: white;
+    }
+    /* education section */
+    .education {
+        height: 30vh;
+        gap: 260px;
+    }
+    .education-content table {
+        border: 2px solid #212529;
+        margin: 15px;
+        box-shadow: 0px 1px 7px 0px black;
+        /* left: 200px; */
+        height: 25vh;
+        width: 40vw;
+        border-radius: 8px;
+    }
+    .education-content td {
+        border: 2px solid #212529;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        background-color: #e9ecef;
+    }
+    .education-content th {
+        text-decoration: none;
+        border: 2px solid #212529;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        background-color: #adb5bd;
+        letter-spacing: 2px;
+    }
+
+    /* skills & projects section */
+    .skills {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .container ul {
+        width: 40vw;
+        margin: 10px 100px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 10px 10px 10px 10px;
+        height: 4vh;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px black;
+        letter-spacing: 4px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #0d6efd;
+        list-style-type: none;
+        box-shadow: 0px 0px 4px 1px black;
+    }
+    .projects{
+        margin-top: 30px;
+        column-gap: 170px;
+    }
+    #projects-change ul li{
+        height: 5vh;
+        background-color: #1aa260;
+
+    }
+
+    
+
+    /* virtual profile section */
+    .links{
+        height: 25vh;
+        gap: 300px;
+    }
+    .links .index{
+        width: 20vw;
+        font-size: 2.2rem;
+    }    
+    .links-content{
+        flex-direction: column;
+        gap: 10px;
+        margin: auto;
+    }
+    .links-content a {
+        font-size: 1.5rem;
+    }
+</style>
+
+<body>
+    <div class="main flex">
+        <section class="header flex">
+            <div class="black flex">
+                <h1>Mohammad Huzaif Khan</h1>
+                <img src="hk.jpg" alt="Huzaif_pic" />
+            </div>
+        </section>
+    </section>
+    <section class="education flex">
+        <div class="flex center">
+            <h3 class="index">Education</h3>
+        </div>
+        <div class="education-content">
+            <table>
+                <tr>
+                    <th>year</th>
+                    <th>Standard</th>
+                    <th>College name</th>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>1st-year</td>
+                    <td>B-tech in IT at ( G.H.R.I.E.B.M )</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>12th</td>
+                    <td>shri DL. Junoiur College Bhuawal</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>10th</td>
+                    <td>St.Aloysius Convent High School</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+        <section class="skills flex">
+            <div class="flex center">
+                <h3 class="index">Skills</h3>
+            </div>
+            <div class="container">
+                <ul>
+                    <li>C, C++</li>
+                    <li>Python</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Java-Script</li>
+                </ul>
+            </div>
+        <section class="projects flex">
+            <div class="flex center">
+                <h3 class="index">
+                    projects
+                </h3>
+            </div>
+            <div class="container" id="projects-change">
+                <ul>
+                    <li>Number Prediction Game using C++</li>
+                    <li>personal Portfilio Page using Html & Css</li>
+                    <li>Restraurant Home-Page using Html & Css</li>
+                    <li>Calculator using Html, Css & Java-Script</li>
+                </ul>
+            </div>
+        </section>
+        <section class="links flex">
+            <div class="flex center">
+                <h3 class="index">
+                    Virtual profile
+                </h3>
+            </div>
+            <div class="links-content flex">
+                <a href="linked.com" class="link">Linked in</a>
+                <a href="Github.com" class="link">Git hub</a>
+            </div> 
+        </section>      
+    </div>
+</body>
+
+</html>
